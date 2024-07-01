@@ -88,8 +88,10 @@ Fault tolerance is Ability to continue operating despite failures or malfunction
 
     1) Unicast: One-to-one communication where data is sent from one sender to one receiver.
     <img src="./IMG/unicasting.png">
+    
     2) Multicast: One-to-many communication where data is sent from one sender to multiple receivers who have expressed interest in receiving the data.
     <img src="./IMG/multicasting.png">
+
     3) Broadcast: One-to-all communication where data is sent from one sender to all devices within a specific network segment or broadcast domain.
     <img src="./IMG/broadcasting.png">
 - Purpose: Transmission methods determine how data is directed and distributed across the network based on the specific communication needs and the characteristics of the recipients.
