@@ -93,7 +93,7 @@ Fault tolerance is Ability to continue operating despite failures or malfunction
     <img height="350px" src="./IMG/multicasting.png">
 
     - Broadcast: One-to-all communication where data is sent from one sender to all devices within a specific network segment or broadcast domain.
-    <img height="350px" src="./IMG/broadcasting.png">
+    <img width="100%" src="./IMG/broadcasting.png">
 - Purpose: Transmission methods determine how data is directed and distributed across the network based on the specific communication needs and the characteristics of the recipients.
 
 Examples:
