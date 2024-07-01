@@ -82,11 +82,21 @@ Fault tolerance is Ability to continue operating despite failures or malfunction
 - Purpose: Ensures compatibility with network hardware and protocols, and optimizes data transfer efficiency.
 - Example: Ethernet frames typically have a maximum size of 1500 bytes, known as the Maximum Transmission Unit (MTU).
 
-5) Message Delivery Options:
+5) Message Delivery Options (Transmission Methods):
 
-- Definition: Delivery options include the methods and guarantees for delivering data packets, such as reliability, flow control, and error handling.
-- Purpose: Ensures that data reaches its destination correctly and efficiently, providing mechanisms for error detection and correction.
-- Example: TCP provides reliable delivery with acknowledgments and retransmissions, while UDP offers a connectionless service with no guarantees on delivery.
+These are the various ways data can be transmitted across a network. They include:
+
+Unicast: One-to-one communication where data is sent from one sender to one receiver.
+Multicast: One-to-many communication where data is sent from one sender to multiple receivers who have expressed interest in receiving the data.
+Broadcast: One-to-all communication where data is sent from one sender to all devices within a specific network segment or broadcast domain.
+Purpose: Transmission methods determine how data is directed and distributed across the network based on the specific communication needs and the characteristics of the recipients.
+
+Examples:
+
+Unicast: Sending an email to a specific recipient.
+Multicast: Streaming a live video feed to multiple viewers.
+Broadcast: Broadcasting network discovery packets to all devices on a local network.
+
 
 ### The process of message transmission and reception:
 
