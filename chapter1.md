@@ -87,10 +87,10 @@ Fault tolerance is Ability to continue operating despite failures or malfunction
 - These are the various ways data can be transmitted across a network. They include:
 
     - Unicast: One-to-one communication where data is sent from one sender to one receiver.
-    <img height="350px" src="./IMG/unicasting.png">
+    <img width="100%" src="./IMG/unicasting.png">
 
     - Multicast: One-to-many communication where data is sent from one sender to multiple receivers who have expressed interest in receiving the data.
-    <img height="350px" src="./IMG/multicasting.png">
+    <img width="100%" src="./IMG/multicasting.png">
 
     - Broadcast: One-to-all communication where data is sent from one sender to all devices within a specific network segment or broadcast domain.
     <img width="100%" src="./IMG/broadcasting.png">
