@@ -84,20 +84,20 @@ Fault tolerance is Ability to continue operating despite failures or malfunction
 
 5) Message Delivery Options (Transmission Methods):
 
-These are the various ways data can be transmitted across a network. They include:
+- These are the various ways data can be transmitted across a network. They include:
 
-Unicast: One-to-one communication where data is sent from one sender to one receiver.
-Multicast: One-to-many communication where data is sent from one sender to multiple receivers who have expressed interest in receiving the data.
-Broadcast: One-to-all communication where data is sent from one sender to all devices within a specific network segment or broadcast domain.
-Purpose: Transmission methods determine how data is directed and distributed across the network based on the specific communication needs and the characteristics of the recipients.
+    1) Unicast: One-to-one communication where data is sent from one sender to one receiver.
+    2) Multicast: One-to-many communication where data is sent from one sender to multiple receivers who have expressed interest in receiving the data.
+    3) Broadcast: One-to-all communication where data is sent from one sender to all devices within a specific network segment or broadcast domain.
+- Purpose: Transmission methods determine how data is directed and distributed across the network based on the specific communication needs and the characteristics of the recipients.
 
 Examples:
 
-Unicast: Sending an email to a specific recipient.
-Multicast: Streaming a live video feed to multiple viewers.
-Broadcast: Broadcasting network discovery packets to all devices on a local network.
+- Unicast: Sending an email to a specific recipient.
+- Multicast: Streaming a live video feed to multiple viewers.
+- Broadcast: Broadcasting network discovery packets to all devices on a local network.
 
-
+<!-- 
 ### The process of message transmission and reception:
 
 <img src="./IMG/process_message_trans.png">
@@ -128,7 +128,7 @@ Broadcast: Broadcasting network discovery packets to all devices on a local netw
 
 7) Message Destination:
 
-- Finally, the decoded message reaches its intended destination, which could be another device, application, or user within the network. The destination uses the received data for its intended purpose, such as displaying text, processing commands, or storing information in a database.
+- Finally, the decoded message reaches its intended destination, which could be another device, application, or user within the network. The destination uses the received data for its intended purpose, such as displaying text, processing commands, or storing information in a database. -->
 
 
 
