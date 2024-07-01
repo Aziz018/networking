@@ -82,18 +82,18 @@ Fault tolerance is Ability to continue operating despite failures or malfunction
 - Purpose: Ensures compatibility with network hardware and protocols, and optimizes data transfer efficiency.
 - Example: Ethernet frames typically have a maximum size of 1500 bytes, known as the Maximum Transmission Unit (MTU).
 
-5) Message Delivery Options (Transmission Methods):
+5) Message Delivery Options :
 
 - These are the various ways data can be transmitted across a network. They include:
 
     - Unicast: One-to-one communication where data is sent from one sender to one receiver.
-    <img width="100%" src="./IMG/unicasting.png">
+    <img width="100%" src="./IMG/1_QSq3UKhoh1kM9pNdbaAHZA.webp">
 
     - Multicast: One-to-many communication where data is sent from one sender to multiple receivers who have expressed interest in receiving the data.
-    <img width="100%" src="./IMG/multicasting.png">
+    <img width="100%" src="./IMG/1_-qmVjfuftOj4r3sOFCF-SQ.webp">
 
     - Broadcast: One-to-all communication where data is sent from one sender to all devices within a specific network segment or broadcast domain.
-    <img width="100%" src="./IMG/broadcasting.png">
+    <img width="100%" src="./IMG/1_HVqM8yeClinK6vlrNzzDCQ.webp">
 - Purpose: Transmission methods determine how data is directed and distributed across the network based on the specific communication needs and the characteristics of the recipients.
 
 Examples:
@@ -101,6 +101,16 @@ Examples:
 - Unicast: Sending an email to a specific recipient.
 - Multicast: Streaming a live video feed to multiple viewers.
 - Broadcast: Broadcasting network discovery packets to all devices on a local network.
+
+#### Protocol types:
+
+| Protocol Type | Description |
+|---------------|-------------|
+| **Network Communications Protocols** | Protocols enable two or more devices to communicate over one or more networks. The Ethernet family of technologies involves a variety of protocols such as IP, Transmission Control Protocol (TCP), HyperText Transfer Protocol (HTTP), and many more. |
+| **Network Security Protocols**       | Protocols secure data to provide authentication, data integrity, and data encryption. Examples of secure protocols include Secure Shell (SSH), Secure Sockets Layer (SSL), and Transport Layer Security (TLS). |
+| **Routing Protocols**                | Protocols enable routers to exchange route information, compare path information, and then to select the best path to the destination network. Examples of routing protocols include Open Shortest Path First (OSPF) and Border Gateway Protocol (BGP). |
+| **Service Discovery Protocols**      | Protocols are used for the automatic detection of devices or services. Examples of service discovery protocols include Dynamic Host Configuration Protocol (DHCP) which discovers services for IP address allocation, and Domain Name System (DNS) which is used to perform name-to-IP address translation. |
+
 
 <!-- 
 ### The process of message transmission and reception:
