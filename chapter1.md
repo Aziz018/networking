@@ -59,7 +59,7 @@ Fault tolerance is Ability to continue operating despite failures or malfunction
 
 1) Message Encoding:
 
-- Definition: Message encoding specifies how data is converted into a format suitable for transmission.
+- Definition: Message encoding specifies how data is converted into a format suitable for transmission. A source message from the sender is encoded into signals or waves then transmitted through a medium wired/wireless then received and decoded and the message is passed to the destination.
 - Purpose: Ensures that data can be correctly interpreted by the receiving device.
 - Example: Converting text characters into binary code using encoding schemes like ASCII or UTF-8.
 
@@ -86,21 +86,59 @@ Fault tolerance is Ability to continue operating despite failures or malfunction
 
 - These are the various ways data can be transmitted across a network. They include:
 
+    <pre>
+
     - Unicast: One-to-one communication where data is sent from one sender to one receiver.
-    <img width="100%" src="./IMG/unicasting.png">
+
+    <img src="./IMG/unicasting.png">
 
     - Multicast: One-to-many communication where data is sent from one sender to multiple receivers who have expressed interest in receiving the data.
-    <img width="100%" src="./IMG/multicasting.png">
+
+    <img src="./IMG/multicasting.png">
 
     - Broadcast: One-to-all communication where data is sent from one sender to all devices within a specific network segment or broadcast domain.
-    <img width="100%" src="./IMG/broadcasting.png">
-- Purpose: Transmission methods determine how data is directed and distributed across the network based on the specific communication needs and the characteristics of the recipients.
+
+    <img src="./IMG/broadcasting.png">
+    </pre>
+
+    - Purpose: Transmission methods determine how data is directed and distributed across the network based on the specific communication needs and the characteristics of the recipients.
 
 Examples:
 
 - Unicast: Sending an email to a specific recipient.
 - Multicast: Streaming a live video feed to multiple viewers.
 - Broadcast: Broadcasting network discovery packets to all devices on a local network.
+
+
+Types of network architectures:
+
+- Peer-to-Peer network:
+    - Peer-to-peer (P2P) is defined as a decentralized network architecture in which participants, called peers, interact directly with each other without the need for a central authority or server.
+    - In a P2P network, each participant acts as both a client and a server, enabling them to share resources and services directly with other peers.
+    - not scalable.
+
+    <img src="./IMG/peer-to-peer.jpg">
+
+- Client-Server network:
+
+    - A client-server network is a computing model in which multiple clients connect to a central server to access resources, such as files, applications, and data. The server acts as a central hub, managing and providing services to the connected clients.
+    - Request-Response model.
+    - Server may be overloaded.
+    - Scalable.
+
+    <img src="./IMG/client-server.jpeg">
+
+### Componenets of a computer network:
+
+1) Nodes:
+- End nodes (End devices): The starting point or the end point in the communication.
+> Example: Computers, Network printers, VoIP phone ...
+- Intermediary nodes: Are nodes that just forwards the from one to another.
+> Example: Switches, Bridges, Hubs, Routers, Security devices (Firewall), Repeaters, Cell Tower ...
+
+2) Media:
+3) Services:
+
 
 <!-- 
 ### The process of message transmission and reception:
