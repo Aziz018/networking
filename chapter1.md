@@ -90,15 +90,15 @@ Fault tolerance is Ability to continue operating despite failures or malfunction
 
     - Unicast: One-to-one communication where data is sent from one sender to one receiver.
 
-    <img src="./IMG/unicasting.png">
+    <img width="50%" src="./IMG/unicasting.png">
 
     - Multicast: One-to-many communication where data is sent from one sender to multiple receivers who have expressed interest in receiving the data.
 
-    <img src="./IMG/multicasting.png">
+    <img width="50%" src="./IMG/multicasting.png">
 
     - Broadcast: One-to-all communication where data is sent from one sender to all devices within a specific network segment or broadcast domain.
-
-    <img src="./IMG/broadcasting.png">
+    
+    <img width="50%" src="./IMG/broadcasting.png">
     </pre>
 
     - Purpose: Transmission methods determine how data is directed and distributed across the network based on the specific communication needs and the characteristics of the recipients.
@@ -117,7 +117,7 @@ Types of network architectures:
     - In a P2P network, each participant acts as both a client and a server, enabling them to share resources and services directly with other peers.
     - not scalable.
 
-    <img src="./IMG/peer-to-peer.jpg">
+    <img width="50%" src="./IMG/peer-to-peer.jpg">
 
 - Client-Server network:
 
@@ -126,7 +126,7 @@ Types of network architectures:
     - Server may be overloaded.
     - Scalable.
 
-    <img src="./IMG/client-server.jpeg">
+    <img width="50%" src="./IMG/client-server.jpeg">
 
 ### Componenets of a computer network:
 
@@ -143,15 +143,15 @@ Types of network architectures:
 - Ethernet straight-through cable: To connect different devices.
 - Ethernet crossover cable: To connect devices of the same kind.
 
-<img src="./IMG/1000ftcables.jpg">
+<img width="50%" src="./IMG/1000ftcables.jpg">
 
 - Fiber Optic cable.
 
-<img src="./IMG/fiber-optic-cable-1024x512.jpg">
+<img width="50%" src="./IMG/fiber-optic-cable-1024x512.jpg">
 
 - Coaxial cable.
 
-<img src="./IMG/coaxial-cable-construction-1.jpg">
+<img width="50%" src="./IMG/coaxial-cable-construction-1.jpg">
 
 - USB cable.
 
