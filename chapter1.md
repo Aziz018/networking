@@ -130,14 +130,60 @@ Types of network architectures:
 
 ### Componenets of a computer network:
 
-1) Nodes:
+`** Nodes: **`
 - End nodes (End devices): The starting point or the end point in the communication.
 > Example: Computers, Network printers, VoIP phone ...
 - Intermediary nodes: Are nodes that just forwards the from one to another.
 > Example: Switches, Bridges, Hubs, Routers, Security devices (Firewall), Repeaters, Cell Tower ...
 
-2) Media:
-3) Services:
+`** Media: **`
+- It is also called the link that carry the data from one side to another. There are two types: wired meduim (guided meduim), wireless meduim (unguided meduim).
+
+1) Wired Media:
+- Ethernet straight-through cable: To connect different devices.
+- Ethernet crossover cable: To connect devices of the same kind.
+
+<img src="./IMG/1000ftcables.jpg">
+
+- Fiber Optic cable.
+
+<img src="./IMG/fiber-optic-cable-1024x512.jpg">
+
+- Coaxial cable.
+
+<img src="./IMG/coaxial-cable-construction-1.jpg">
+
+- USB cable.
+
+<br>
+
+2) wireless Media:
+
+- Infrared Waves (Short range communication - TV remote control).
+- Radio Waves (Bluetooth, Wi-Fi).
+- MicroWaves (Long distance communication - Cellular System).
+- Satellite Waves (Ultimately the long distance communication).
+
+
+
+`** Services: **`
+- e-Mail.
+- Storage services.
+- File sharing.
+- Instant messaging.
+- Online games.
+- Surfing internet. 
+
+## Classification of Computer Networks:
+
+### Local Area Network (LAN).
+
+A local area network (LAN) is a computer network that interconnects computers within a limited area sush as a residence. school ...
+
+### Metropolitan Area Network (LAN).
+
+### Wide Area Network (LAN).
+
 
 
 <!-- 
