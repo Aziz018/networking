@@ -119,7 +119,7 @@ Examples:
 - Broadcast: Broadcasting network discovery packets to all devices on a local network.
 
 
-Types of network architectures:
+### Types of network architectures:
 
 - Peer-to-Peer network:
     - Peer-to-peer (P2P) is defined as a decentralized network architecture in which participants, called peers, interact directly with each other without the need for a central authority or server.
@@ -183,15 +183,44 @@ Types of network architectures:
 - Online games.
 - Surfing internet. 
 
-## Classification of Computer Networks:
+## Classification (or types) of Computer Networks:
 
 ### Local Area Network (LAN).
 
-A local area network (LAN) is a computer network that interconnects computers within a limited area sush as a residence. school ...
+- A local area network (LAN) is a computer network that interconnects computers within a limited area sush as a residence. school ...
 
-### Metropolitan Area Network (LAN).
+- Local Area Network is a group of computers connected to each other in a small area such as building, office.
 
-### Wide Area Network (LAN).
+**LAN devices:**
+- Wired LAN (Example: Ethernet - Hub, Switch).
+- Wireless LAN (Example: Wi-Fi).
+
+<img src="./IMG/lan_79.jpg">
+
+### Metropolitan Area Network (MAN).
+
+- A Metropolitan Area Network is a computer network that interconnects users with computer resources in a geographic region of the size of a metropolitan area (city).
+
+**MAN devices:**
+- Swiches/Hubs (to establishing a local erea network).
+- Routers/Bridges (to connect local area networks).
+
+<img src="./IMG/types-of-area-network-3-1657450252.webp">
+
+### Wide Area Network (WAN).
+
+- A Wide Area Network telecommunications network (any communications at a distance we call it as a telecommunication network) that extends over a large geographical area 
+
+**WAN devices:**
+- End devices and Intermediary devices.
+
+<img src="./IMG/example4.png">
+
+## Network Topologies:
+
+- Network topology (layout) is an arragement of a computer network.
+
+
 
 
 
