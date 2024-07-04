@@ -325,3 +325,80 @@ ip a
 ```bash
 hostname -I
 ```
+
+## Basic MAC addressing:
+
+- MAC stand for Media Access Control.
+- Every node in the LAN is identified with the help of MAC address.
+- IP Address = Location of a person.
+- MAC Address = Name of the person.
+
+<img src="./IMG/2024-07-04_10-00.png">
+
+### MAC address:
+
+- Every node in the LAN is identified with the help of MAC address.
+- Physical address or Hardware address.
+- Unique.
+- Can not be changed.
+- Assigned by the manufacturer.
+- Represented in hexadecimal.
+- Example: 70-20-84-00-ED-FC (48 bits).
+- Separator: hyphen (-), period (.), and colon (:).
+
+## Diffrence between IP and MAC addresses:
+
+<img src="./IMG/2024-07-04_10-10.png">
+
+> How to see MAC address?
+
+- **Windows:**
+
+1) Using Command Prompt:
+
+- Open Command Prompt (press Win + R, type cmd, and press Enter).
+Type the following command:
+```cmd
+ipconfig /all
+```
+- The MAC address will be listed as the `"Physical Address"` for each network interface.
+
+2) Using PowerShell:
+
+- Open PowerShell (press Win + X and select Windows PowerShell).
+Type the following command:
+```powershell
+Get-NetAdapter | select Name, MacAddress
+```
+3) Using Network Settings:
+
+- Go to Settings > Network & Internet.
+Select your network connection (e.g., Wi-Fi or Ethernet).
+- Click on Hardware properties. The MAC address will be listed as the "Physical address (MAC)".
+
+- **Linux and UNUX-like:**
+
+1) Using ip Command:
+
+```bash
+ip link show
+```
+
+- Look for the `link/ether` entry in the output for each network interface. The MAC address will be in the format `xx:xx:xx:xx:xx:xx`.
+- Example Output:
+
+```sql
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP mode DEFAULT group default qlen 1000
+    link/ether 08:00:27:4e:12:8b brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.5/24 brd 192.168.1.255 scope global dynamic enp0s3
+       valid_lft 86389sec preferred_lft 86389sec
+    inet6 fe80::a00:27ff:fe4e:128b/64 scope link 
+       valid_lft forever preferred_lft forever
+```
+- The MAC address here is `08:00:27:4e:12:8b`.
+2) Using ifconfig Command:
+
+```bash
+ifconfig
+```
+- Look for the `ether` or `HWaddr` entry in the output for each network interface. The MAC address will be in the format `xx:xx:xx:xx:xx:xx`.
