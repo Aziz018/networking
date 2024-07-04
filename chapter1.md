@@ -195,7 +195,9 @@ Examples:
 - Wired LAN (Example: Ethernet - Hub, Switch).
 - Wireless LAN (Example: Wi-Fi).
 
-<img src="./IMG/lan_79.jpg">
+<p align="center">
+    <img width="50%" src="./IMG/lan_79.jpg">
+</p>
 
 ### Metropolitan Area Network (MAN).
 
@@ -205,7 +207,9 @@ Examples:
 - Swiches/Hubs (to establishing a local erea network).
 - Routers/Bridges (to connect local area networks).
 
-<img src="./IMG/types-of-area-network-3-1657450252.webp">
+<p align="center">
+    <img width="50%" src="./IMG/types-of-area-network-3-1657450252.webp">
+</p>
 
 ### Wide Area Network (WAN).
 
@@ -214,14 +218,16 @@ Examples:
 **WAN devices:**
 - End devices and Intermediary devices.
 
-<img src="./IMG/example4.png">
+<p align="center">
+    <img width="50%" src="./IMG/example4.png">
+</p>
 
 ## Network Topologies:
 
 - Network topology (layout) is an arragement of a computer network.
 
-
-
+-> phisical topology:
+-> logical topology:
 
 
 <!-- 
