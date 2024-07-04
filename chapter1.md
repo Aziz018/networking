@@ -237,43 +237,52 @@ Examples:
 - All the data transmitted between nodes in the network is transmitted over the `common transmission medium` and is able to be received by all nodes in the network simultaneously
 - A signal containing the address of the intended receiving machine travels from a source machine in `both directions` to all machine connected to the bus until it find the intended recepient.
 
-<img src="./IMG/16.png">
-<img src="./IMG/2024-07-04_08-32.png">
+<p align="center">
+    <img src="./IMG/16.png">
+    <img src="./IMG/2024-07-04_08-32.png">
+<p>
 
-1) Ring Topology:
+2) Ring Topology:
 
 - A ring topology is a bus topology in a `closed loop`.
 - A peer-to-peer LAN topology.
 - Two connections: one to each of its nearest neigbors.
 - `Unidirectional`.
 - Sending and receiving data takes place with the help of a `TOKEN`.
+<p align="center">
+    <img src="./IMG/17.png">
+    <img src="./IMG/2024-07-04_08-39.png">
+</p>
 
-<img src="./IMG/17.png">
-<img src="./IMG/2024-07-04_08-39.png">
-
-1) Star Topology:
+3) Star Topology:
 
 - Every node is connected to a `central node` called hub or switch.
 - `Centralized management`.
 - All traffic must pass through the hub or switch.
 
-<img src="./IMG/18.png">
-<img src="./IMG/2024-07-04_08-47.png">
-<img src="./IMG/2024-07-04_08-51.png">
+<p align="center">
+    <img src="./IMG/18.png">
+    <img src="./IMG/2024-07-04_08-47.png">
+    <img src="./IMG/2024-07-04_08-51.png">
+</p>
 
-1) Mesh Topology:
+4) Mesh Topology:
 
 - Each node is directly connected to every other nodes in the network.
 - Fault tolerant and reliable.
 
-<img src="./IMG/20.png">
-<img src="./IMG/2024-07-04_08-57.png">
+<p align="center">
+    <img src="./IMG/20.png">
+    <img src="./IMG/2024-07-04_08-57.png">
+</p>
 
-1) Hybrid Topology:
+5) Hybrid Topology:
 
 - Can be one or more diffrent topologies.
 
-<img src="./IMG/21-3.png">
+<p align="center">
+    <img src="./IMG/21-3.png">
+</p>
 
 ## Basic IP addressing:
 
