@@ -355,7 +355,7 @@ hostname -I
 - Example: 70-20-84-00-ED-FC (48 bits).
 - Separator: hyphen (-), period (.), and colon (:).
 
-## Diffrence between IP and MAC addresses:
+### Diffrence between IP and MAC addresses:
 
 <img src="./IMG/2024-07-04_10-10.png">
 
@@ -411,3 +411,61 @@ ip link show
 ifconfig
 ```
 - Look for the `ether` or `HWaddr` entry in the output for each network interface. The MAC address will be in the format `xx:xx:xx:xx:xx:xx`.
+
+## Basic of Port addressing:
+
+### Port address or port number:
+
+- In a node, many processes will be runing.
+- Data witch are sent/received must reach the right process.
+- Every process in a node is uniquely identified using `port numbers`.
+- Port = Communication end point.
+- Fixed port numbers and dynamic port numbers (0 - 65535).
+
+> Example:
+
+    - fixed port numbers 25 (SMTP), 80 (HTTP), 22 (SSH).
+    - os assigned dynamic port numbers 62414.
+
+<img src="./IMG/2024-07-05_07-12.png">
+
+> How to see MAC address?
+
+- **Windows:**
+
+- We can use `Resource Monitor` to see port numbers and associated processes.
+
+<img src="./IMG/rWGRi.png">
+
+- **Linux and UNIX-like**
+```bash
+sudo lsof -i -P -n
+```
+
+- the ouput somthing like this:
+
+```
+COMMAND    PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+NetworkMa  753 root   26u  IPv4 136413      0t0  UDP 10.32.112.62:68->10.23.1.253:67 
+sshd       813 root    3u  IPv4   8002      0t0  TCP *:22 (LISTEN)
+sshd       813 root    4u  IPv6   8004      0t0  TCP *:22 (LISTEN)
+brave     4093 aziz   33u  IPv4 137846      0t0  TCP 10.32.112.62:54472->140.82.112.25:443 (ESTABLISHED)
+```
+
+| Process | PID  | User | FD   | Type | IP Type | FD Number | Protocol | Local Address        | Remote Address      | State        |
+|---------|------|------|------|------|---------|-----------|----------|----------------------|---------------------|--------------|
+| brave   | 4093 | aziz | 33u  | IPv4 | TCP     | 137846    | TCP      | 10.32.112.62:54472   | 140.82.112.25:443   | ESTABLISHED  |
+
+
+Explanation of Columns:
+- Process: Name of the process (brave in this case).
+- PID: Process ID (4093).
+- User: Username of the user who owns the process (aziz).
+- FD: File descriptor (33u).
+- Type: Type of connection (in this case, IPv4).
+- IP Type: Specifies the protocol (TCP).
+- FD Number: File descriptor number (137846).
+- Protocol: Protocol used (TCP for Transmission Control Protocol).
+- Local Address: Local IP address and port used (10.32.112.62:54472).
+- Remote Address: Remote IP address and port (140.82.112.25:443).
+- State: Current state of the connection (ESTABLISHED indicates an active connection).
