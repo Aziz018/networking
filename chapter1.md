@@ -476,3 +476,78 @@ Explanation of Columns:
 - Local Address: Local IP address and port used (10.32.112.62:54472).
 - Remote Address: Remote IP address and port (140.82.112.25:443).
 - State: Current state of the connection (ESTABLISHED indicates an active connection).
+
+### 3 key points to ponder:
+
+- Before sending data, any node must
+
+1) Attach source `IP address` and destination `IP address`. (to identified the network) required for routers. <!-- Attach (إرفاق) -->
+2) Attach source `MAC address` and destination `MAC address`. (to identified the right host) required for switch (LAN).
+3) Attach source `Port number` and destination `Port number`. (to identified the right process from the particular host) required for the OS to handover the data to the right process.
+
+## Switching Techniques in Computer Networks:
+
+### Switching:
+
+- Switching in IT and computer networking is the transfer of data packets, or blocks of data, through a network switch. Switches transfer data from source ports on devices such as computers to destination ports on devices such as routers. helps in deciding the best route for the data transmission if there are multiple paths.
+
+- One-to-One connection.
+
+### Switching techniques:
+
+<p align="center">
+    <img src="./IMG/2024-07-05_09-48.png">
+</p>
+
+#### Circuit Switching:
+
+- A dedicated path is established between the sender and the receiver.
+- Before date transfer, connection will be established first.
+- Example: Telephone network.
+
+- There are 3 phases in circuit switching:
+
+1) connection establishment.
+
+<p align="center">
+    <img src="./IMG/2024-07-05_10-43.png">
+</p>
+
+2) data transfer.
+
+<p align="center">
+    <img src="./IMG/2024-07-05_10-43_1.png">
+</p>
+
+3) connection disconnection.
+
+<p align="center">
+    <img src="./IMG/2024-07-05_10-44.png">
+</p>
+
+#### Message Switching:
+
+- Store and forward mechanism.
+- Message is transferred as a complete unit and forwarded using store and forward mechanism at the intermediary node.
+- Not suited for streaming media and real-time applications.
+
+#### Packet Switching:
+
+- The internet is a packet switched network.
+- Message is broken into individual chunks called as packets.
+- Each packet is sent individually.
+- Each packet will have source and destination IP address with sequence number.
+- Sequence numbers will help the receiver to:
+    
+    - Recorder the packets.
+    - Detect mission packets and ... .
+
+
+1) Datagram Approach
+2) Virtual Circuit Approach
+
+
+
+<!-- <p align="center">
+    <img src="./IMG/2024-07-05_10-35.png">
+</p> -->
