@@ -86,28 +86,26 @@ Fault tolerance is Ability to continue operating despite failures or malfunction
 
 - These are the various ways data can be transmitted across a network. They include:
 
-    <p>
+    <>
 
     - Unicast: One-to-one communication where data is sent from one sender to one receiver.
     
-    <!-- <img width="50%" src="./IMG/unicasting.png"> -->
+    <!-- <img src="./IMG/unicasting.png"> -->
     
     <p align="center">
-        <img width="50%" src="./IMG/unicasting.png"/>
+        <img src="./IMG/unicasting.png"/>
     </p>
 
     - Multicast: One-to-many communication where data is sent from one sender to multiple receivers who have expressed interest in receiving the data.
 
     <p align="center">
-        <img width="50%" src="./IMG/multicasting.png">
+        <img src="./IMG/multicasting.png">
     </p>
 
     - Broadcast: One-to-all communication where data is sent from one sender to all devices within a specific network segment or broadcast domain.
     
     <p align="center">
-        <img width="50%" src="./IMG/broadcasting.png">
-    </p>
-    
+        <img src="./IMG/broadcasting.png">
     </p>
 
     - Purpose: Transmission methods determine how data is directed and distributed across the network based on the specific communication needs and the characteristics of the recipients.
@@ -125,8 +123,9 @@ Examples:
     - Peer-to-peer (P2P) is defined as a decentralized network architecture in which participants, called peers, interact directly with each other without the need for a central authority or server.
     - In a P2P network, each participant acts as both a client and a server, enabling them to share resources and services directly with other peers.
     - not scalable.
-
-    <img width="50%" src="./IMG/peer-to-peer.jpg">
+    <p align="center">
+        <img src="./IMG/peer-to-peer.jpg">
+    </p>
 
 - Client-Server network:
 
@@ -134,8 +133,10 @@ Examples:
     - Request-Response model.
     - Server may be overloaded.
     - Scalable.
-
-    <img width="50%" src="./IMG/client-server.jpeg">
+    
+    <p align="center">
+        <img src="./IMG/client-server.jpeg">
+    </p>
 
 ### Componenets of a computer network:
 
@@ -152,15 +153,21 @@ Examples:
 - Ethernet straight-through cable: To connect different devices.
 - Ethernet crossover cable: To connect devices of the same kind.
 
-<img width="50%" src="./IMG/1000ftcables.jpg">
+<p align="center">
+    <img src="./IMG/1000ftcables.jpg">
+</p>
 
 - Fiber Optic cable.
 
-<img width="50%" src="./IMG/fiber-optic-cable-1024x512.jpg">
+<p align="center">
+    <img src="./IMG/fiber-optic-cable-1024x512.jpg">
+</p>
 
 - Coaxial cable.
 
-<img width="50%" src="./IMG/coaxial-cable-construction-1.jpg">
+<p align="center">
+    <img src="./IMG/coaxial-cable-construction-1.jpg">
+</p>
 
 - USB cable.
 
@@ -196,7 +203,7 @@ Examples:
 - Wireless LAN (Example: Wi-Fi).
 
 <p align="center">
-    <img width="50%" src="./IMG/lan_79.jpg">
+    <img src="./IMG/lan_79.jpg">
 </p>
 
 ### Metropolitan Area Network (MAN).
@@ -208,7 +215,7 @@ Examples:
 - Routers/Bridges (to connect local area networks).
 
 <p align="center">
-    <img width="50%" src="./IMG/types-of-area-network-3-1657450252.webp">
+    <img src="./IMG/types-of-area-network-3-1657450252.webp">
 </p>
 
 ### Wide Area Network (WAN).
@@ -219,7 +226,7 @@ Examples:
 - End devices and Intermediary devices.
 
 <p align="center">
-    <img width="50%" src="./IMG/example4.png">
+    <img src="./IMG/example4.png">
 </p>
 
 ## Network Topologies:
