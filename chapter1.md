@@ -86,8 +86,6 @@ Fault tolerance is Ability to continue operating despite failures or malfunction
 
 - These are the various ways data can be transmitted across a network. They include:
 
-    <>
-
     - Unicast: One-to-one communication where data is sent from one sender to one receiver.
     
     <!-- <img src="./IMG/unicasting.png"> -->
@@ -127,8 +125,9 @@ Examples:
     - Peer-to-peer (P2P) is defined as a decentralized network architecture in which participants, called peers, interact directly with each other without the need for a central authority or server.
     - In a P2P network, each participant acts as both a client and a server, enabling them to share resources and services directly with other peers.
     - not scalable.
+    
     <p align="center">
-        <img src="./IMG/peer-to-peer.jpg">
+        <img width="80%" src="./IMG/peer-to-peer.jpg">
     </p>
 
 - Client-Server network:
@@ -139,7 +138,7 @@ Examples:
     - Scalable.
     
     <p align="center">
-        <img src="./IMG/client-server.jpeg">
+        <img width="80%" src="./IMG/client-server.jpeg">
     </p>
 
 ### Componenets of a computer network:
@@ -158,19 +157,19 @@ Examples:
 - Ethernet crossover cable: To connect devices of the same kind.
 
 <p align="center">
-    <img src="./IMG/1000ftcables.jpg">
+    <img width="80%" src="./IMG/1000ftcables.jpg">
 </p>
 
 - Fiber Optic cable.
 
 <p align="center">
-    <img src="./IMG/fiber-optic-cable-1024x512.jpg">
+    <img width="80%" src="./IMG/fiber-optic-cable-1024x512.jpg">
 </p>
 
 - Coaxial cable.
 
 <p align="center">
-    <img src="./IMG/coaxial-cable-construction-1.jpg">
+    <img width="80%" src="./IMG/coaxial-cable-construction-1.jpg">
 </p>
 
 - USB cable.
@@ -207,7 +206,7 @@ Examples:
 - Wireless LAN (Example: Wi-Fi).
 
 <p align="center">
-    <img src="./IMG/lan_79.jpg">
+    <img width="80%" src="./IMG/lan_79.jpg">
 </p>
 
 ### Metropolitan Area Network (MAN).
@@ -219,7 +218,7 @@ Examples:
 - Routers/Bridges (to connect local area networks).
 
 <p align="center">
-    <img src="./IMG/types-of-area-network-3-1657450252.webp">
+    <img width="80%" src="./IMG/types-of-area-network-3-1657450252.webp">
 </p>
 
 ### Wide Area Network (WAN).
@@ -230,7 +229,7 @@ Examples:
 - End devices and Intermediary devices.
 
 <p align="center">
-    <img src="./IMG/example4.png">
+    <img width="80%" src="./IMG/example4.png">
 </p>
 
 ## Network Topologies:
@@ -249,7 +248,7 @@ Examples:
 - A signal containing the address of the intended receiving machine travels from a source machine in `both directions` to all machine connected to the bus until it find the intended recepient.
 
 <p align="center">
-    <img src="./IMG/16.png">
+    <img width="80%" src="./IMG/16.png">
     <img src="./IMG/2024-07-04_08-32.png">
 <p>
 
@@ -261,7 +260,7 @@ Examples:
 - `Unidirectional`.
 - Sending and receiving data takes place with the help of a `TOKEN`.
 <p align="center">
-    <img src="./IMG/17.png">
+    <img width="80%" src="./IMG/17.png">
     <img src="./IMG/2024-07-04_08-39.png">
 </p>
 
@@ -272,7 +271,7 @@ Examples:
 - All traffic must pass through the hub or switch.
 
 <p align="center">
-    <img src="./IMG/18.png">
+    <img width="80%" src="./IMG/18.png">
     <img src="./IMG/2024-07-04_08-47.png">
     <img src="./IMG/2024-07-04_08-51.png">
 </p>
@@ -283,7 +282,7 @@ Examples:
 - Fault tolerant and reliable.
 
 <p align="center">
-    <img src="./IMG/20.png">
+    <img width="80%" src="./IMG/20.png">
     <img src="./IMG/2024-07-04_08-57.png">
 </p>
 
@@ -292,7 +291,7 @@ Examples:
 - Can be one or more diffrent topologies.
 
 <p align="center">
-    <img src="./IMG/21-3.png">
+    <img width="80%" src="./IMG/21-3.png">
 </p>
 
 ## Basic IP addressing:
@@ -446,9 +445,12 @@ ifconfig
 
 - We can use `Resource Monitor` to see port numbers and associated processes.
 
-<img src="./IMG/rWGRi.png">
+<p align="center">
+    <img width="100%" src="./IMG/rWGRi.png">
+</p>
 
 - **Linux and UNIX-like**
+
 ```bash
 sudo lsof -i -P -n
 ```
