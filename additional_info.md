@@ -100,3 +100,22 @@ Explanation of Fields:
 10) Urgent Pointer: Indicates if there is urgent data.
 11) Optional TCP Options: Used for various optional parameters.
 12) Data (Payload): The actual data being transmitted.
+
+# Protocol types
+
+| Protocol Type                    | Description                                                                                                                                           |
+|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Network Communications Protocols** | Protocols enable two or more devices to communicate over one or more networks. The Ethernet family of technologies involves a variety of protocols such as IP, Transmission Control Protocol (TCP), HyperText Transfer Protocol (HTTP), and many more. |
+| **Network Security Protocols**       | Protocols secure data to provide authentication, data integrity, and data encryption. Examples of secure protocols include Secure Shell (SSH), Secure Sockets Layer (SSL), and Transport Layer Security (TLS). |
+| **Routing Protocols**                | Protocols enable routers to exchange route information, compare path information, and then to select the best path to the destination network. Examples of routing protocols include Open Shortest Path First (OSPF) and Border Gateway Protocol (BGP). |
+| **Service Discovery Protocols**      | Protocols are used for the automatic detection of devices or services. Examples of service discovery protocols include Dynamic Host Configuration Protocol (DHCP) which discovers services for IP address allocation, and Domain Name System (DNS) which is used to perform name-to-IP address translation. |
+
+
+Explanation
+Network Communications Protocols: These protocols are used to enable communication between multiple devices over one or more networks. Examples include IP (Internet Protocol), TCP (Transmission Control Protocol), and HTTP (HyperText Transfer Protocol).
+
+Network Security Protocols: These protocols ensure the security of data during transmission by providing authentication, data integrity, and encryption. Common examples are SSH (Secure Shell), SSL (Secure Sockets Layer), and TLS (Transport Layer Security).
+
+Routing Protocols: These protocols help routers share and compare route information to determine the best path for data to travel across a network. Examples include OSPF (Open Shortest Path First) and BGP (Border Gateway Protocol).
+
+Service Discovery Protocols: These protocols automatically detect devices or services within a network. Examples include DHCP (Dynamic Host Configuration Protocol), which assigns IP addresses, and DNS (Domain Name System), which translates domain names into IP addresses. ​
