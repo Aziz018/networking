@@ -513,7 +513,10 @@ Explanation of Columns:
 
 - There are 3 phases in circuit switching:
 
-1) connection establishment.
+<p align="center">
+    <img src="./IMG/ezgif.com-animated-gif-maker.gif">
+</p>
+<!-- 1) connection establishment.
 
 <p align="center">
     <img src="./IMG/2024-07-05_10-43.png">
@@ -529,7 +532,7 @@ Explanation of Columns:
 
 <p align="center">
     <img src="./IMG/2024-07-05_10-44.png">
-</p>
+</p> -->
 
 #### Message Switching:
 
@@ -553,6 +556,32 @@ Explanation of Columns:
 2) Virtual Circuit Approach
 
 
+## Layering in computer network:
+
+### Definition:
+
+- Layering means decomposing the problem into more manageable components (layers).
+
+### Advantages:
+
+- **It provides more modular design:** By dividing network functionality into distinct layers, each layer can be developed, maintained, and updated independently. This modular approach allows for easier scalability and flexibility in network design. For example, changes in one layer generally do not affect the others, simplifying upgrades and modifications.
+
+- **Easy to toubleshot:** Layering facilitates troubleshooting by isolating issues to specific layers. Problems can often be localized to a particular layer based on where communication breaks down or where errors occur. This division makes it easier for network administrators and engineers to diagnose and resolve issues efficiently without needing to understand every detail of the entire network stack.
+
+### Protocols:
+
+- It is a set of rules that governs data communiction.
+- The protocols in each layer governs the activities of the data communication.
+
+### Layered architectures:
+
+- The OSI reference model:
+
+- The TCP/IP model:
+
+#### The OSI model:
+
+- OSI stands for Open System Interconnection.
 
 <!-- <p align="center">
     <img src="./IMG/2024-07-05_10-35.png">
