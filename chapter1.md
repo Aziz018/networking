@@ -607,12 +607,58 @@ Explanation of Columns:
     <img src="./IMG/ezgif.com-animated-gif-maker (1).gif">
 </p>
 
+#### The OSI reference model layers:
 
+**1) Application Layer:**
 
-<!-- <img src="./IMG/16379744768493_P2C5-1.png"> -->
+<p align="center">
+    <img src="./IMG/Screenshot_2024-07-09_05_42_06.png">
+</p>
 
+**2) Presentation Layer:**
 
-<!-- <p align="center">
-    <img src="./IMG/2024-07-05_10-35.png">
-</p> -->
+<p align="center">
+    <img src="./IMG/Screenshot_2024-07-09_05_42_19.png">
+</p>
 
+**3) Session Layer:**
+
+<p align="center">
+    <img src="./IMG/Screenshot_2024-07-09_05_42_31.png">
+</p>
+
+**4) Transport Layer:**
+
+<p align="center">
+    <img src="./IMG/Screenshot_2024-07-09_05_35_07.png">
+</p>
+
+**5) Network Layer:**
+
+<p align="center">
+    <img src="./IMG/Screenshot_2024-07-09_05_50_52.png">
+</p>
+
+**6) Data Link Layer:**
+
+<p align="center">
+    <img src="./IMG/Screenshot_2024-07-09_05_48_02.png">
+</p>
+
+**7) Physical Layer:**
+
+<p align="center">
+    <img src="./IMG/Screenshot_2024-07-09_05_48_30.png">
+    <b>* Transmission mode. </b>
+</p>
+
+- **Summary:**
+<p align="center">
+    <img src="./IMG/Screenshot_2024-07-09_06_17_38.png">
+</p>
+
+#### Working of the OSI reference model:
+
+<p align="center">
+    <img src="./IMG/2024-07-09_06-22.png">
+</p>
