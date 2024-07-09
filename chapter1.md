@@ -577,12 +577,42 @@ Explanation of Columns:
 
 - The OSI reference model:
 
+    - OSI stands for `Open System Interconnection`.
+    - It is a model for understanding and designing network architecture that is flexible, robust, and interoperable.
+    - Developed by the International Standards for Organizations (ISO).
+    - The OSI model is not a protocol.
+    - It is only a guideline and hence it is referred as OSI reference model.
+    - The purpose of the OSI model is to show how to facilitate communication between different systems without requiring changes to the logic of the undelying hardware and software.
+    - The OSI model was never fully implemented, it is just a guideline.
+
 - The TCP/IP model:
 
-#### The OSI model:
+    - TCP/IP it is an acronym of `Transmission Control Protocol/Internet Protocol.`
+    - The TCP/IP protocol suite was developed prior to the OSI model.
+    - Therefore, the layers in the TCP/IP protocol suite do not exactly match those in the OSI model.
+    - TCP/IP is a hierarchical protocol made up of interactive modules each of witch provides a specific functionality.
 
-- OSI stands for Open System Interconnection.
+#### The OSI reference model:
+
+<p align="center">
+    <img src="./IMG/osi_model_7_layers.png">
+</p>
+
+<p align="center">
+    <img src="./IMG/Screenshot from 2024-07-08 09-28-15.png">
+</p>
+
+
+<p align="center">
+    <img src="./IMG/ezgif.com-animated-gif-maker (1).gif">
+</p>
+
+
+
+<!-- <img src="./IMG/16379744768493_P2C5-1.png"> -->
+
 
 <!-- <p align="center">
     <img src="./IMG/2024-07-05_10-35.png">
 </p> -->
+
