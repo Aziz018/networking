@@ -662,3 +662,63 @@ Explanation of Columns:
 <p align="center">
     <img src="./IMG/2024-07-09_06-22.png">
 </p>
+
+
+#### Addressing in networking:
+
+<p align="center">
+    <img src="./IMG/Screenshot from 2024-07-10 12-46-29.png">
+</p>
+
+- a and b and c are port numbers of the prcesses in the sender computer.
+- i and j are port numbers of the prcesses in the receiver computer.
+- A and P are IP addresses.
+- In the header H2 the source and destination mac address are added.
+- In the error control related things are added in the trailer T2.
+- the entire content is converted into zeros and ones and then it is given to the router.
+
+<p align="center">
+    <img src="./IMG/Screenshot from 2024-07-10 14-52-00.png">
+</p>
+
+
+## TCP/IP protocol suite:
+
+<p align="center">
+    <img src="./IMG/TCP-IP-model-vs-OSI-model.png">
+</p>
+
+<p align="center">
+    <img src="./IMG/comparison-of-OSI-and-TCPIP.jpg">
+</p>
+
+<p align="center">
+    <img src="./IMG/Screenshot from 2024-07-10 15-13-30.png">
+</p>
+
+<p align="center">
+    <img src="./IMG/Screenshot from 2024-07-10 15-20-21.png">
+</p>
+
+### Protocol Data Unit (PDU):
+- Protocol Data Units (PDUs) are named according to the protocols of the TCP/IP suite: the PDU can be data, segment, packet, frame, and bits.
+
+<p align="center">
+    <img src="./IMG/Screenshot from 2024-07-10 15-33-55.png">
+</p>
+
+<p align="center">
+    <img src="./IMG/Screenshot from 2024-07-10 15-39-42.png">
+</p>
+
+### Basic networking commands:
+
+```
+ipconfig
+ipconfig /all
+nslookup
+nslookup www.google.com
+ping
+tracert
+```
+
